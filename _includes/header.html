@@ -1,0 +1,27 @@
+<!-- Header -->
+<nav id="nav-wrap" class = "opaque">
+
+   <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+   <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+   <ul id="nav" class="nav">
+   	<!--
+	Explanation: Each main page grouping is assigned a navgroup. 
+	Each navgroup has a main page link (such as blog.html for the blog group)
+	In the front matter, the group is called a "navgroup"
+	To get one of the navbar items to light up for a page, make sure that the 
+	front matter for that page contains the right navgroup
+   	-->
+   	{% assign links = site.data.navigation %}
+        {% for link in links %}
+            {% assign class = nil %}
+            {% if page.navgroup contains link.navgroup %}
+                {% assign class = 'current' %}
+            {% endif %}
+			<li class="{{ class }}">
+	            <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+            </li>
+        {% endfor %}
+   </ul>
+
+</nav>
