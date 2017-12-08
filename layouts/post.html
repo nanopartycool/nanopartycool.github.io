@@ -1,0 +1,22 @@
+---
+layout: default
+navgroup: blog
+---
+<!-- Post Body -->   
+
+<article class = "post">
+   <header class = "post-header">
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <p class="post-meta">
+         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+         </time>
+      </p>
+   </header>
+
+   <div class = "post-content">
+      {{ content }}
+   </div>
+
+</article>
+
+<!-- END POST BODY -->
