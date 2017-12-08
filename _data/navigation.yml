@@ -1,0 +1,12 @@
+- title: Home
+  url: /index.html
+  navgroup: home
+- title: About
+  url: /about.html
+  navgroup: about
+- title: Blog 
+  url: /blog.html
+  navgroup: blog
+- title: Resume
+  url: /resume.html
+  navgroup: resume
