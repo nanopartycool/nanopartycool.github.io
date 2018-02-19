@@ -103,29 +103,7 @@ fjs.parentNode.insertBefore(js, fjs);
 <img="/assets/rockiesfunny.png" class = "spotlight" alt="Hello" />
 </div>
 
-<ul class="featured-list">
-{% for post in site.posts %}
-<div class="featured-post"}>
-<header class = "featured-header">
-  <h2 class = "featured-title">
-    <a class = "featured-title-link" href="{{ post.url }}">{{post.title}}</a>
-  </h2>
-  <div class="featured-meta">
-    <span>{{post.author}}   |   {{ post.date | date: "%b %-d, %Y" }}</span>
-  </div>
-</header>
-<div class = "featured-body">
-  {{ post.excerpt | strip_html | truncatewords:35}}
-</div>
-<div class = "featured-button">
-  <a class="button"  href="{{ post.url }}">Read more</a>
-</div>
-<footer class = "featured-footer">
-  <hr/>
-</footer>
-</div>
-{% endfor %}
-</ul>
+
 
 <!-- footer
 ================================================== -->
