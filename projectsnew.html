@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Home | Chad T. Coarsey</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="/assets/default.css">
+	<link rel="stylesheet" href="/assets/main.css">
+   <link rel="stylesheet" href="/assets/media-queries.css">
+
+   <!-- Script
+   ================================================== -->
+	<!-- <script src="js/modernizr.js"></script> -->
+
+	<link rel="shortcut icon" href="/assets/favicon.png" >
+
+
+  <body>
+
+    <!-- Header -->
+<nav id="nav-wrap" class = "opaque">
+
+   <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+   <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+   <ul id="nav" class="nav">
+   	<!--
+	Explanation: Each main page grouping is assigned a navgroup.
+	Each navgroup has a main page link (such as blog.html for the blog group)
+	In the front matter, the group is called a "navgroup"
+	To get one of the navbar items to light up for a page, make sure that the
+	front matter for that page contains the right navgroup
+   	-->
+
+
+
+
+			<li class="current">
+	            <a href="/index.html">Home</a>
+            </li>
+
+
+
+			<li class="">
+	            <a href="/about.html">About</a>
+            </li>
+
+
+			<li class="">
+	            <a href="/resume.html">Resume</a>
+            </li>
+
+
+			<li class="">
+	            <a href="/Projects.html">Projects</a>
+            </li>
+
+      <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+              <div class="External Content">
+              <a href="https://faculty.eng.fau.edu/asghar">Asghar-Lab</a></a>
+              <a href="http://bionicglove.org/">Bionic Glove Project</a></a>
+              <a href="https://www.ostem.org/">oSTEM</a></a>
+              </div>
+   </ul>
+
+</nav>
+<main class="content" aria-label="Content">
+  <div class="wrapper">
+    <!-- Page Body -->
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/BionicGlove/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/BionicGlove/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BionicGlove/">The Bionic Glove Project</a></blockquote></div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class = "section-lr-header">
+<img="/assets/rockiesfunny.png" class = "spotlight" alt="Hello" />
+</div>
+
+<ul class="featured-list">
+{% for post in site.posts %}
+<div class="featured-post"}>
+<header class = "featured-header">
+  <h2 class = "featured-title">
+    <a class = "featured-title-link" href="{{ post.url }}">{{post.title}}</a>
+  </h2>
+  <div class="featured-meta">
+    <span>{{post.author}}   |   {{ post.date | date: "%b %-d, %Y" }}</span>
+  </div>
+</header>
+<div class = "featured-body">
+  {{ post.excerpt | strip_html | truncatewords:35}}
+</div>
+<div class = "featured-button">
+  <a class="button"  href="{{ post.url }}">Read more</a>
+</div>
+<footer class = "featured-footer">
+  <hr/>
+</footer>
+</div>
+{% endfor %}
+</ul>
+
+<!-- footer
+================================================== -->
+<footer>
+<div class="footer-bio">
+ <p>
+    Chad Coarsey is a Bioengineer and (Dis)ability advocate based in Florida. He can be reached via email at [c] [dot] [coarsey][at] aol [dot] com.
+ </p>
+
+</div>
+</footer>
+
+<!-- Java Script
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+<script type="text/javascript" src="/assets/jquery-migrate-1.2.1.min.js"></script>
+<script src="/assets/waypoints.js"></script>
+
+
+
+</body>
+
+</html>
