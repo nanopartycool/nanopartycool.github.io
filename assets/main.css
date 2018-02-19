@@ -212,6 +212,8 @@ body { background: #0f0f0f; } /* #0f0f0f - black color for background */
 /* ------------------------------------------------------------------ */
 /* Styles for Navigation Bar
 /* ------------------------------------------------------------------ */
+
+/*
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
 	 margin: 0;
 	 padding: 0;
@@ -220,7 +222,7 @@ body { background: #0f0f0f; } /* #0f0f0f - black color for background */
 }
 
 /* nav-wrap */
-#nav-wrap {
+/*#nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
@@ -228,20 +230,20 @@ body { background: #0f0f0f; } /* #0f0f0f - black color for background */
    margin: 0 auto;
    z-index: 100;
    position: fixed; /* Sticky navigation bar */
-   left: 0;
+/*   left: 0;
    top: 0;
 }
 .opaque { background-color: #333; } 
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none; }
+/*#nav-wrap > a.mobile-btn { display: none; }
 
 ul#nav {
    min-height: 48px;
    width: auto;
 
    /* center align the menu */
-   text-align: center;
+/*   text-align: center;
 }
 ul#nav li {
    position: relative;
@@ -251,11 +253,11 @@ ul#nav li {
 }
 
 /* Links */
-ul#nav li a {
+/*ul#nav li a {
 
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
-   display: inline-block;
+ /*  display: inline-block;
    padding: 8px 13px;
    line-height: 32px;
 	text-decoration: none;
@@ -272,7 +274,56 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F08406; } /* NAVIGATION BAR COLOR WHEN HIGHLIGHTED */
 
-
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+  
+  li {
+      float: left;
+  }
+  
+  li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+      background-color: red;
+  }
+  
+  li.dropdown {
+      display: inline-block;
+  }
+  
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+  
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
 /* ------------------------------------------------------------------ */
 /* Styles for Posts Layout
 /* ------------------------------------------------------------------ */
