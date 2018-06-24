@@ -100,8 +100,22 @@ body { background: #0f0f0f; } /* #0f0f0f - black color for background */
   content:"\2714\0020";
   line-height: 1.5;
 }
-
-
+.resume-pub {
+    float: Left;
+    text-justify:inter-word;
+    margin: 0 20px 0 0 ;
+    text-align: justify;
+    padding-right: 50px
+}
+.resume-pub ul li:before{
+  content:"\2714\0020";
+  line-height: 1.5;
+}
+.resume-pub ul li ul li:before{
+  content:"\2714\0020";
+  line-height: 1.5;
+  
+	
 @media screen and (max-width: 450px) { /*Change this to change the trigger point of the responsive layout*/
    .resume-section-title { 
     float: none;
