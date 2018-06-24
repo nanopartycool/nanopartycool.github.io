@@ -107,11 +107,11 @@ body { background: #0f0f0f; } /* #0f0f0f - black color for background */
     text-align: justify;
     padding-right: 50px
 }
-.resume-pub ul li:before{
+/*.resume-pub ul li:before{
   content:"\2714\0020";
   line-height: 1.5;
 }
-.resume-pub ul li ul li:before{
+/*.resume-pub ul li ul li:before{
   content:"\2714\0020";
   line-height: 1.5;
   
