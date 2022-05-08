@@ -58,6 +58,14 @@ body { background: #0f0f0f; } /* #0f0f0f - black color for background */
    border-radius: 100%;
 }
 
+}
+
+.spotlight2 {
+   position: relative;
+   width: 180px;
+   height: 110px;
+   border-radius: 50%;
+}
 
 /* ------------------------------------------------------------------ */
 /* Styles for Resume Section
