@@ -62,8 +62,8 @@ body { background: #0f0f0f; } /* #0f0f0f - black color for background */
 
 .spotlight2 {
    position: relative;
-   width: 90px;
-   height: 65px;
+   max-width: 90px;
+   max-height: 65px;
    border-radius: 100%;
 }
 
