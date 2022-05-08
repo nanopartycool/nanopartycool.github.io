@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Chad and Ryan's Registry</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="/assets/default.css">
+	<link rel="stylesheet" href="/assets/main.css">
+   <link rel="stylesheet" href="/assets/media-queries.css">
+
+   <!-- Script
+   ================================================== -->
+	<!-- <script src="js/modernizr.js"></script> -->
+
+	<link rel="shortcut icon" href="/assets/favicon.png" >
+   <!-- Google 
+   ================================================== -->
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114304024-1"></script>
+   <script>
+	 window.dataLayer = window.dataLayer || [];
+ 	 function gtag(){dataLayer.push(arguments);}
+ 	 gtag('js', new Date());
+
+  	 gtag('config', 'UA-114304024-1');
+   </script>
+   <!-- Google Tag Manager -->
+	  
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PD4WZNL');</script>
+<!-- End Google Tag Manager -->
+	  
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD4WZNL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <!-- Header -->
+<nav id="nav-wrap" class = "opaque">
+
+   <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+   <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+   <ul id="nav" class="nav">
+   	<!--
+	Explanation: Each main page grouping is assigned a navgroup.
+	Each navgroup has a main page link (such as blog.html for the blog group)
+	In the front matter, the group is called a "navgroup"
+	To get one of the navbar items to light up for a page, make sure that the
+	front matter for that page contains the right navgroup
+   	-->
+
+
+
+
+				<li class="current">
+	            <a href="/index.html">Home</a>
+            </li>
+
+
+
+			<li class="">
+	            <a href="/about.html">Event</a>
+            </li>
+
+
+			<li class="">
+	            <a href="/resume.html">Registry</a>
+            </li>
+
+
+			<li class="">
+	            <a href="/Projects.html">Our Story</a>
+            </li>
+
+   </ul>
+
+</nav>
+	  
+<main class="content" aria-label="Content">
+     <div class="wrapper">
+           <!-- Page Body -->
+
+<article class = "page">
+  <div class = "page-content">
+     <div class = "resume-section">
+ 	<div class = "resume-section-title">
+  	 <span>Amazon.com Registry</span>
+ 	</div>
+ 	<div class = "resume-content">
+		<center>
+   		<a href="https://www.amazon.com/hz/wishlist/ls/29CCNH9C6JQTM?ref_=wl_share"> Click here to visit our Marriage Registry on Amazon </a>
+     		</center>
+ 	</div>
+      </div>
+<hr></hr>
+	
+<div class = "resume-section">
+ <div class = "resume-section-title">
+   <span>Bed Bath and Beyond Registry</span>	
+
+<div class = "resume-content">
+	<center>
+   <a href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/551475381?eventType=Wedding"> Click here to visit our Marriage Registry at Bed Bath and Beyond </a>
+     </center>
+ </div>
+</div>
+<hr></hr>
+	
+<div class = "resume-section">
+ <div class = "resume-section-title">
+   <span>PayPal Gift Link</span>	
+
+<div class = "resume-content">
+	<center>
+   <a href="https://paypal.me/chadandryan?country.x=US&locale.x=en_US"> Click here to contribute our Honeymoon Fund using Paypal </a>
+     </center>
+ </div>
+</div>
+	
+
+	   
+
+<hr></hr>
+
+
+</article>
+
+<!-- End Page Body -->
+     </div>
+   </main>
+
+<!-- footer
+================================================== -->
+<footer>
+ <div class="footer-bio">
+    <p>
+       If you have any questions, please feel free to reach out to Chad and Ryan  at  chad[dot]and[dot]ryan[dot]c[at]gmail[dot]com.
+    </p>
+
+ </div>
+</footer>
+
+<!-- Java Script
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+<script type="text/javascript" src="/assets/jquery-migrate-1.2.1.min.js"></script>
+<script src="/assets/waypoints.js"></script>
+
+
+
+ </body>
+
+</html>
+
